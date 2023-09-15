@@ -1,8 +1,6 @@
-# React + Vite
+# React Transpilation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Application is to fill form using voice/speech, to achieve the functionality we have 2 approaches.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Use Speech Recognition Library, as it is an library no need to sign-up and it is totally free.
+2. Use Alan.ai and create Script that will send data through API and then add it in form fields, also it paid software but we will get free trial from which we can test the application.
